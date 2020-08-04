@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite111]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test10(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="OrangeHRM_Login_ParallelTesting.Login_ParallelExecution">
+        <methods>
+          <include name="Admin"/>
+          <include name="teardon"/>
+        </methods>
+      </class> <!-- OrangeHRM_Login_ParallelTesting.Login_ParallelExecution -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="5" parallel="classes" name="Test11(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="OrangeHRM_Login_ParallelTesting.Login_ParallelExecution">
+        <methods>
+          <include name="Admin"/>
+          <include name="teardon"/>
+        </methods>
+      </class> <!-- OrangeHRM_Login_ParallelTesting.Login_ParallelExecution -->
+    </classes>
+  </test> <!-- Test11(failed) -->
+  <test thread-count="5" parallel="classes" name="Test12(failed)">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="OrangeHRM_Login_ParallelTesting.Login_ParallelExecution">
+        <methods>
+          <include name="Admin"/>
+          <include name="launchBrowser" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="teardon"/>
+        </methods>
+      </class> <!-- OrangeHRM_Login_ParallelTesting.Login_ParallelExecution -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+</suite> <!-- Failed suite [Suite111] -->

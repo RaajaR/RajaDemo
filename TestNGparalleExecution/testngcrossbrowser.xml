@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test name="Test1111">
+  <parameter name = "Browser" value="Chrome"></parameter>  
+  <classes>
+  <class name= "CrossBrowserTesting.TestNgFrameWorkCrossBrowserTesting"></class>
+  </classes>
+  
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name = "Browser" value="Chrome"></parameter>
+  <classes>
+  <class name= "CrossBrowserTesting.TestNgFrameWorkCrossBrowserTesting"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="Test4">
+   <parameter name = "Browser" value="Firefox"></parameter> 
+  <classes>
+  <class name= "CrossBrowserTesting.TestNgFrameWorkCrossBrowserTesting"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+   <parameter name = "Browser" value="IE"></parameter>
+  <classes>
+  <class name= "CrossBrowserTesting.TestNgFrameWorkCrossBrowserTesting"></class>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

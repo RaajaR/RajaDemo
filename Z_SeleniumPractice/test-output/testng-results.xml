@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-01T01:16:21 IST" name="Default suite" finished-at="2020-08-01T01:16:32 IST" duration-ms="10913">
+    <groups>
+    </groups>
+    <test started-at="2020-08-01T01:16:21 IST" name="Default test" finished-at="2020-08-01T01:16:32 IST" duration-ms="10913">
+      <class name="Takescrenshot.WebElementScreenshot">
+        <test-method signature="elementscreenshot()[pri:0, instance:Takescrenshot.WebElementScreenshot@7c469c48]" started-at="2020-08-01T01:16:21 IST" name="elementscreenshot" finished-at="2020-08-01T01:16:32 IST" duration-ms="10842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementscreenshot -->
+      </class> <!-- Takescrenshot.WebElementScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
