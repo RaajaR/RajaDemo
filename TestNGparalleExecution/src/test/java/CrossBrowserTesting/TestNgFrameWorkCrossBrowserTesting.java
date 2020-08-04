@@ -36,7 +36,7 @@ public class TestNgFrameWorkCrossBrowserTesting {
 	}
 	else
 	{
-		System.out.println("please check the path)");
+		System.out.println("please check RAJA WHAT IS THIS)");
 	}
 	
 	driver.manage().window().maximize();
